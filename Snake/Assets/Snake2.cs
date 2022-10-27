@@ -81,7 +81,7 @@ public class Snake2 : MonoBehaviour
         }
         else if (other.tag == "Obstacle")
         {
-            ResetState();
+            SceneManager.LoadScene("Menu");
         }
     }
 

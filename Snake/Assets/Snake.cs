@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Snake : MonoBehaviour
 {
@@ -83,7 +84,7 @@ public class Snake : MonoBehaviour
             audioSource.PlayOneShot(clip, volume);
         } else if (other.tag == "Obstacle")
         {
-            ResetState();
+            SceneManager.LoadScene ("Menu");
         }
     }
 
