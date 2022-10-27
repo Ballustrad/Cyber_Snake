@@ -11,7 +11,7 @@ public class Snake2 : MonoBehaviour
     public int ScoreB = 0;
     private Vector2 _direction = Vector2.left;
     public List<Transform> _segments = new List<Transform>();
-
+    
     public Transform segmentPrefab;
 
     public int initialSize = 4;
@@ -24,9 +24,11 @@ public class Snake2 : MonoBehaviour
     }
     public void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.I))
         {
             _direction = Vector2.up;
+            
         }
         else if (Input.GetKeyDown(KeyCode.K))
         {
