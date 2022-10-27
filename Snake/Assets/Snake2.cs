@@ -11,20 +11,39 @@ public class Snake2 : MonoBehaviour
     public int ScoreB = 0;
     private Vector2 _direction = Vector2.left;
     public List<Transform> _segments = new List<Transform>();
-    public SpriteRenderer Left;
-    public SpriteRenderer Right;
-    public SpriteRenderer Top;
-    public SpriteRenderer Bottom;
+    public SpriteRenderer spriteRenderer;
+    public Sprite left;
+    public Sprite Up;
+    public Sprite Down;
+    public Sprite Right;
     
+
     public Transform segmentPrefab;
 
     public int initialSize = 4;
 
     private void Start()
     {
+        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         scoreManagerB = FindObjectOfType<ScoreManagerBlack>();
         scoreManagerB.ScoreB = PlayerPrefs.GetInt("ScoreB", 0);
         ResetState();
+    }
+    void ChangeSprite(Sprite left)
+    {
+        spriteRenderer.sprite = left;
+    }
+    void ChangeSprite2(Sprite Up)
+    {
+        spriteRenderer.sprite = Up;
+    }
+    void ChangeSprite3(Sprite Down)
+    {
+        spriteRenderer.sprite = Down;
+    }
+    void ChangeSprite4(Sprite Right)
+    {
+        spriteRenderer.sprite = Right;
     }
     public void Update()
     {
@@ -32,20 +51,22 @@ public class Snake2 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             _direction = Vector2.up;
-            
+            ChangeSprite2(Up);
         }
         else if (Input.GetKeyDown(KeyCode.K))
         {
             _direction = Vector2.down;
+            ChangeSprite3(Down);
         }
         else if (Input.GetKeyDown(KeyCode.J))
         {
             _direction = Vector2.left;
-          
+            ChangeSprite(left);
         }
         else if (Input.GetKeyDown(KeyCode.L))
         {
             _direction = Vector2.right;
+            ChangeSprite4(Right);
         }
 
     }
