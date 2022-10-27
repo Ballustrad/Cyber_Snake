@@ -939,7 +939,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 31.6
+  orthographic size: 30.835482
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2716,7 +2716,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 2b224105715faf3478158e721b7bd2be, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7a0c29854dc9c514fb4ebc94cd4a5ba9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2760,10 +2760,10 @@ MonoBehaviour:
   Score: 0
   _segments: []
   spriteRenderer: {fileID: 1490717862}
-  left: {fileID: 21300000, guid: 9933a16db361e554e9bbad9c076a370c, type: 3}
-  Up: {fileID: 21300000, guid: 878c2d6eeefe5b445969583e21eaeff1, type: 3}
-  Down: {fileID: 21300000, guid: ec7afcda656e93a45a9d39f9ae733273, type: 3}
-  Right: {fileID: 21300000, guid: 2b224105715faf3478158e721b7bd2be, type: 3}
+  left: {fileID: 21300000, guid: f17940e1f4e713f43a9e4707d31e7495, type: 3}
+  Up: {fileID: 21300000, guid: 1bfc4d58e1c01c1498b90a1f20a4110f, type: 3}
+  Down: {fileID: 21300000, guid: 20a2db3b894e69e42a8c6d5902ae1b32, type: 3}
+  Right: {fileID: 21300000, guid: 7a0c29854dc9c514fb4ebc94cd4a5ba9, type: 3}
   segmentPrefab: {fileID: 7143534916472057627, guid: 17f0eeb392fb8a74b8e863690ccbe342, type: 3}
   initialSize: 4
 --- !u!82 &1490717865
