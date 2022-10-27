@@ -11,6 +11,10 @@ public class Snake2 : MonoBehaviour
     public int ScoreB = 0;
     private Vector2 _direction = Vector2.left;
     public List<Transform> _segments = new List<Transform>();
+    public SpriteRenderer Left;
+    public SpriteRenderer Right;
+    public SpriteRenderer Top;
+    public SpriteRenderer Bottom;
     
     public Transform segmentPrefab;
 
@@ -37,6 +41,7 @@ public class Snake2 : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.J))
         {
             _direction = Vector2.left;
+          
         }
         else if (Input.GetKeyDown(KeyCode.L))
         {
