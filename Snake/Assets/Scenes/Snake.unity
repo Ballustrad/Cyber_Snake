@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 22079994}
   - component: {fileID: 22079993}
   m_Layer: 0
-  m_Name: cyber_snake_wall_projector_1 (3)
+  m_Name: cyber_snake_wall_projector_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1435,7 +1435,7 @@ GameObject:
   - component: {fileID: 760269092}
   - component: {fileID: 760269091}
   m_Layer: 0
-  m_Name: cyber_snake_wall_projector_1 (1)
+  m_Name: cyber_snake_wall_projector_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2113,7 +2113,7 @@ GameObject:
   - component: {fileID: 1214621141}
   - component: {fileID: 1214621140}
   m_Layer: 0
-  m_Name: Background (1)
+  m_Name: 'Background '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2466,7 +2466,7 @@ GameObject:
   - component: {fileID: 1479416439}
   - component: {fileID: 1479416438}
   m_Layer: 0
-  m_Name: Titre_noir-blanc_vertical_2
+  m_Name: Titre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3268,7 +3268,7 @@ GameObject:
   - component: {fileID: 2032394730}
   - component: {fileID: 2032394729}
   m_Layer: 0
-  m_Name: cyber_snake_wall_projector_1 (2)
+  m_Name: cyber_snake_wall_projector_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

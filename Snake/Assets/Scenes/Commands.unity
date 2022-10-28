@@ -724,7 +724,7 @@ GameObject:
   - component: {fileID: 675078609}
   - component: {fileID: 675078608}
   m_Layer: 0
-  m_Name: CYBERSNAKE 2.0 (2)
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
